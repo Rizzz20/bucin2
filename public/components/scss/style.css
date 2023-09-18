@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.container .emoji {
+  position: absolute;
+  top: 35px;
+}
+.container .emoji img {
+  width: 250px;
+  height: 250px;
+}
+.container .button {
+  position: absolute;
+  bottom: 65px;
+}
+.container .button button {
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  background: transparent;
+  border: 3px solid white;
+  cursor: pointer;
+}
+.container .button button a {
+  font-size: 1.2rem;
+  color: white;
+}
+.container .button button:hover {
+  background: red;
+}
+.container .name {
+  margin-bottom: -13.5rem;
+  width: 1366px;
+}
+.container .name h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+.container .name h2 {
+  color: white;
+  font-size: 2.2rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  line-height: 1.3;
+}
+
+html {
+  font-size: 62.8%;
+}
+@media only screen and (min-width: 968px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background: #000;
+}/*# sourceMappingURL=style.css.map */

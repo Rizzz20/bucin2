@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  line-height: 1.3;
+}
+
+html {
+  font-size: 62.8%;
+  @media only screen and (min-width: 968px) {
+    font-size: 80%;
+  }
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background: #000;
+}
